@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "type": "module",
   "bin": {
-    "create-revup": "./bin/index.js"
+    "create-revup": "bin/index.js"
   },
   "scripts": {
     "test": "node --check bin/index.js lib/*.js templates/*.js"
