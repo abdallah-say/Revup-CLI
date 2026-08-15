@@ -1,16 +1,16 @@
 {
   "name": "create-revup",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "type": "module",
   "bin": {
     "create-revup": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --check bin/index.js lib/*.js templates/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SnakeEyee/Revup.git"
+    "url": "git+https://github.com/abdallah-say/Revup-CLI.git"
   },
   "keywords": [
     "react",
@@ -18,13 +18,15 @@
     "cli",
     "structured",
     "scaffold",
-    "create react vite",
-    "create"
+    "create-react-app",
+    "create-vite",
+    "tailwind-v4",
+    "typescript"
   ],
-  "author": "SnakeEye",
+  "author": "Abdallah Sayed",
   "preferGlobal": true,
   "license": "MIT",
-  "description": "A CLI to scaffold a React Vite project with structured directories",
+  "description": "A modern CLI to scaffold React + Vite projects with structured folders, TypeScript/JS, Tailwind CSS v4, path aliases, and preset libraries.",
   "files": [
     "bin/",
     "lib/",
