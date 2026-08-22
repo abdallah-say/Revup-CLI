@@ -1,10 +1,10 @@
 {
-  "name": "revup-dev",
-  "version": "1.1.1",
+  "name": "create-revup-dev",
+  "version": "1.2.0",
   "type": "module",
   "bin": {
-    "revup-dev": "bin/index.js",
-    "create-revup-dev": "bin/index.js"
+    "create-revup-dev": "bin/index.js",
+    "revup-dev": "bin/index.js"
   },
   "scripts": {
     "test": "node --check bin/index.js lib/*.js templates/*.js"
